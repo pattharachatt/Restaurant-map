@@ -31,4 +31,6 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     // Restaurants
     Route::delete('restaurants/destroy', 'RestaurantsController@massDestroy')->name('restaurants.massDestroy');
     Route::resource('restaurants', 'RestaurantsController');
+
+    Route::get('/', 'HomeController@index')->name('home');
 });
