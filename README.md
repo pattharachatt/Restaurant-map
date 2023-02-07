@@ -13,3 +13,9 @@ run php artisan serve
 please create file .env follow .env.test
 
 input API key at .env file
+
+
+Email/Password for login is
+
+email : admin@admin.com
+password: password
